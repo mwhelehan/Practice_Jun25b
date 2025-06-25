@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual Environment ---
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# --- VS Code ---
+.vscode/
+
+# --- Mac System Files ---
+.DS_Store
+
+# --- Testing ---
+*.coverage
+*.log
+coverage.xml
+htmlcov/
+
+# --- Jupyter Notebooks (if ever used) ---
+.ipynb_checkpoints
+
+# --- Build Artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Secrets & Env Files ---
+.env
+*.env
+.env.*
+
+# --- Cache Files ---
+*.sqlite3
+*.db
+*.log
+
+# --- My love’s experimental traces ---
+notes.md
+scratch.py
+temp/
